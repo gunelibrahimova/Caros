@@ -1352,7 +1352,11 @@
     display: none;
   }
   .section4 .boxes .box {
-    margin-right: 60px;
+    margin: auto;
+    width: 100%;
+  }
+  .section4 .small {
+    display: none;
   }
   .section5 .text {
     width: 100%;
@@ -1363,6 +1367,13 @@
     margin-bottom: 20px;
   }
   .section5 .boxes .box img {
+    width: 100%;
+  }
+  .section6 .top .right li a {
+    display: none;
+  }
+  .section6 .bottom .box {
+    margin: auto;
     width: 100%;
   }
   .section7 .image .black .left {

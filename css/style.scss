@@ -1351,8 +1351,13 @@
         }
         .boxes{
             .box{
-                margin-right: 60px;
+                margin: auto;
+                    width: 100%;
+                
             }
+        }
+        .small{
+            display: none;
         }
     }
   .section5{
@@ -1367,6 +1372,23 @@
               img{
                   width: 100%;
               }
+          }
+      }
+  }
+  .section6{
+      .top{
+          .right{
+              li{
+                  a{
+                      display: none;
+                  }
+              }
+          }
+      }
+      .bottom{
+          .box{
+              margin: auto;
+              width: 100%;
           }
       }
   }
